@@ -15,6 +15,7 @@ with open('data_file.csv', mode='w') as data_file:
 	# headers to the CSV file 
 	count = 0
 
+	# Iterate through list of data rows:
 	for row in data: 
 		if count == 0: 
 			# Writing headers of CSV file 
